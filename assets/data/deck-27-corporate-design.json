@@ -1,0 +1,120 @@
+{
+  "data": [
+    {
+      "id": "title",
+      "title": "deck 27",
+      "subtitle": "Corporate Design // v1.0.0 // 2026",
+      "teaser": "Logo, Farben und Schrift zum Ansehen und Herunterladen.",
+      "layout": "home",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
+      "id": "logo-hell",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/01-logo/deck-27-logo.svg",
+      "layout": "image",
+      "text": "deck 27 // Logo",
+      "text2": "Logo mit Claim «systemische Jugendhilfe»",
+      "cssClasses": "is-light has-padding-xxl",
+      "download": "./assets/corporate-design/01-deck-27-logo.zip"
+    },
+    {
+      "id": "logo-dunkel",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/02-logo-invers/deck-27-logo-invers.svg",
+      "layout": "image",
+      "text": "deck 27 // Logo invers",
+      "text2": "Logo mit Claim «systemische Jugendhilfe»",
+      "cssClasses": "is-dark has-padding-xxl",
+      "download": "./assets/corporate-design/02-deck-27-logo-invers.zip"
+    },
+    {
+      "id": "logo-hell",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/03-logo-simple/deck-27-logo-simple.svg",
+      "layout": "image",
+      "text": "deck 27 // Logo simple",
+      "text2": "Logo ohne Claim",
+      "cssClasses": "is-dark has-padding-xxl",
+      "download": "./assets/corporate-design/03-deck-27-logo-simple.zip"
+    },
+    {
+      "id": "logo-dunkel",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/04-logo-simple-invers/deck-27-logo-simple-invers.svg",
+      "layout": "image",
+      "text": "deck 27 // Logo simple invers",
+      "text2": "Logo ohne Claim",
+      "cssClasses": "is-dark has-padding-xxl",
+      "download": "./assets/corporate-design/04-deck-27-logo-simple-invers.zip"
+    },
+    {
+      "id": "logo-hell",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/05-wortmarke/deck-27-wortmarke.svg",
+      "layout": "image",
+      "text": "deck 27 // Wortmarke",
+      "text2": "",
+      "cssClasses": "is-light has-padding-xxl",
+      "download": "./assets/corporate-design/05-deck-27-logo-wortmarke.zip"
+    },
+    {
+      "id": "logo-dunkel",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/06-wortmarke-invers/deck-27-wortmarke-invers.svg",
+      "layout": "image",
+      "text": "deck 27 // Wortmarke invers",
+      "text2": "",
+      "cssClasses": "is-dark has-padding-xxl",
+      "download": "./assets/corporate-design/06-deck-27-logo-wortmarke-invers.zip"
+    },
+    {
+      "id": "farben",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/10-colors/deck-27-colors.svg",
+      "layout": "image",
+      "text": "Farben",
+      "text2": "Primärfarbe: #075B8B",
+      "cssClasses": "is-light has-padding-xl",
+      "download": "./assets/corporate-design/10-colors.zip"
+    },
+    {
+      "id": "schrift",
+      "title": "Schrift",
+      "subtitle": "Source Sans Pro – die Hausschrift von deck 27",
+      "teasertext": "Source Sans Pro ist die durchgängige Schrift für alle Anwendungen: Fließtext, Überschriften, Auszeichnungen und Interface. Sie ist unter der SIL Open Font License frei verwendbar und deckt mit sechs Schnitten von ExtraLight bis Black den kompletten Bedarf ab.",
+      "mengentext": "<h3>Überschriften</h3><p>Überschriften stehen in <strong>SemiBold</strong> oder <strong>Bold</strong>, immer eng geführt und ohne Silbentrennung. Auszeichnungsstark, aber ruhig – die Wirkung entsteht über Größe und Weißraum, nicht über zusätzliche Effekte.</p><h3>Fließtext</h3><p>Fließtext läuft in Regular oder Light bei einer Zeilenhöhe von rund 130 %. Die Zeilenlänge bleibt bei maximal 40 Zeichen mal Schriftgröße, damit der Text angenehm lesbar bleibt. Für Hervorhebungen im Text reichen <strong>Bold</strong> und <em>Italic</em> – Versalien und Unterstreichungen bleiben der Navigation vorbehalten.</p><h3>Schnitte</h3><p>Verfügbar sind ExtraLight, Light, Regular, SemiBold, Bold und Black – jeweils mit passendem kursiven Schnitt. In der Praxis genügen drei: Regular für Fließtext, SemiBold für Überschriften, Bold für Auszeichnungen.</p><h3>Größen</h3><p>Die Größenstaffel folgt einer Renard-Reihe auf Basis einer fluiden Grundgröße. Alle Abstände leiten sich aus derselben Grundgröße ab, damit Typografie und Layout im selben Raster liegen.</p>",
+      "marginalie": "Source Sans Pro",
+      "layout": "text",
+      "cssClasses": "has-padding-xxl grid grid-marginalie",
+      "download": "./assets/corporate-design/20-source-sans-pro.zip"
+    },
+    {
+      "id": "briefpapier",
+      "title": "deck 27",
+      "image": "./images/deck-27-briefpapier.svg",
+      "layout": "image",
+      "text": "Briefpapier",
+      "text2": "sollen wir da was machen?",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
+      "id": "presentation",
+      "title": "deck 27",
+      "image": "./images/deck-27-praesentation.svg",
+      "layout": "image",
+      "text": "Präsentationsvorlage",
+      "text2": "sollen wir da was machen?",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
+      "id": "business-card",
+      "title": "deck 27",
+      "image": "./images/deck-27-visitenkarte.svg",
+      "layout": "image",
+      "text": "Visitenkarte",
+      "text2": "sollen wir da was machen?",
+      "cssClasses": "is-light has-padding-xxl has-shadow"
+    }
+  ]
+}

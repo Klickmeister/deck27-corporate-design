@@ -1,0 +1,111 @@
+/* stylelint-disable */
+
+:root {
+
+  /* Colors – deck 27
+  ---------------------------------------------------------------------------
+     Primaerfarbe ist #075B8B = hsl(202 90% 28.7%). Die Aufhellungen laufen
+     auf derselben Hue-Zeile, die Sekundaertoene liegen bei gleicher
+     Saettigung/Helligkeit auf anderen Hues derselben Rampe. */
+
+  /* Primaer – Hue 202 */
+  --color-d27-blue: #075B8B;
+  --color-d27-blue-dark: #053957;
+  --color-d27-blue-mid: #1375AD;
+  --color-d27-blue-light: #4BA1D2;
+  --color-d27-blue-pale: #79B2D2;
+
+  /* Sekundaer – gleiche Stufe, andere Hues */
+  --color-d27-indigo: #072F8B;
+  --color-d27-petrol: #07878B;
+  --color-d27-green: #078B63;
+  --color-d27-olive: #5B8B07;
+
+  /* Neutral */
+  --color-light: hsl(0deg 0% 80%);
+  --color-lighter: hsl(0deg 0% 90%);
+  --color-lightest: hsl(0deg 0% 100%);
+  --color-dark: hsl(0deg 0% 50%);
+  --color-darker: hsl(0deg 0% 25%);
+  --color-darkest: hsl(0deg 0% 10%);
+  --color-darken: hsl(0deg 0% 0%/ 50%);
+  --color-darken-strong: hsl(0deg 0% 0%/ 80%);
+  --color-lighten: hsl(0deg 0% 100%/ 50%);
+  --color-lighten-strong: hsl(0deg 0% 100%/ 80%);
+
+  /* Semantisch */
+  --color-primary: var(--color-d27-blue);
+  --color-secondary: var(--color-d27-petrol);
+  --color-accent: var(--color-d27-blue-mid);
+  --color-headline: var(--color-d27-blue);
+  --color-bg: var(--color-lightest);
+  --color-fg: var(--color-darker);
+
+  /* Sektions-Hintergruende (siehe components/section.css) */
+  --color-section-blau: var(--color-d27-blue);
+  --color-section-blau-dunkel: var(--color-d27-blue-dark);
+  --color-section-indigo: var(--color-d27-indigo);
+  --color-section-petrol: var(--color-d27-petrol);
+  --color-section-gruen: var(--color-d27-green);
+  --color-section-oliv: var(--color-d27-olive);
+  --color-section-schwarz: var(--color-darkest);
+  --color-section-grau: var(--color-darker);
+  --color-section-hellgrau: var(--color-lighter);
+
+
+  /* Fonts */
+  --ff-headlines: source-sans, arial, helvetica, sans-serif;
+  --ff-primary: source-sans, arial, helvetica, sans-serif;
+  --ff-icons: material-icons;
+
+  /* Font weights */
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-medium: 600;
+  --fw-bold: 700;
+
+  /* Line heights */
+  --lh-tight: 100%;
+  --lh-normal: 130%;
+  --lh-loose: 150%;
+
+  /* Sizes */
+  /* Renard 10 */
+  --basefont-size: clamp(1rem, 2vw, 1.3rem);
+  --size-xs: calc(var(--basefont-size) * 0.25);
+  --size-s: calc(var(--basefont-size) * 0.6);
+  --size-m: calc(var(--basefont-size) * 1);
+  --size-l: calc(var(--basefont-size) * 1.5);
+  --size-xl: calc(var(--basefont-size) * 2.2);
+  --size-xxl: calc(var(--basefont-size) * 3);
+  --size-xxxl: calc(var(--basefont-size) * 4);
+  --size-eighth: calc(var(--size-m) / 8);
+  --size-quarter: calc(var(--size-m) / 4);
+  --size-half: calc(var(--size-m) / 2);
+
+  /* Transitions */
+  --tr-fast: 0.3s;
+  --tr-normal: 0.6s;
+  --tr-slow: 1s;
+
+  /* Box Sizes */
+  --max-text-width: 40em;
+  --max-content-width: 60em;
+
+  /* Buttons */
+  --button-border-width: var(--border-width);
+  --button-border-color: var(--color-d27-blue);
+  --button-hover-border-color: var(--color-d27-blue-light);
+  --button-text-color: var(--color-lightest);
+  --button-bg-color: var(--color-d27-blue);
+  --button-bg-hover-color: var(--color-d27-blue-mid);
+
+  /* Misc */
+  --border-width: 2px;
+  --level-bg: 0;
+  --level-fg: 10;
+  --radius-m: 3px;
+  --text-gradient: linear-gradient(90deg, var(--color-d27-blue), var(--color-d27-blue-mid));
+  --text-gradient-reversed: linear-gradient(270deg, var(--color-d27-blue), var(--color-d27-blue-mid));
+  --box-shadow: 0 0 1em var(--color-darken);
+}

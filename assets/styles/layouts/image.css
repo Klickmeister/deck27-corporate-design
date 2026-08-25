@@ -1,0 +1,35 @@
+/* Image
+############################################################################ */
+
+.image {
+  figure {
+    color: var(--color-font);
+    text-align: center;
+
+    img {
+      max-width: clamp(10em, 100%, 30em);
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: var(--size-xxl);
+      padding: var(--size-xs) var(--size-s);
+      background-color: var(--color-bg);
+      color: var(--color-fg);
+      text-align: left;
+
+      p {
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        &.bu-text {
+          color: var(--color-dark);
+        }
+      }
+    }
+  }
+
+  &.has-padding-xxl {
+    padding: var(--size-xxl);
+  }
+}

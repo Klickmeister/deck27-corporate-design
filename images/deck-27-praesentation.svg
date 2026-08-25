@@ -1,0 +1,7 @@
+<svg width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" font-family="'Source Sans Pro', Helvetica, Arial, sans-serif">
+  <rect width="960" height="540" fill="#F1F5F8"/>
+  <rect x="8" y="8" width="944" height="524" rx="6" fill="none" stroke="#075B8B" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="480" y="260" font-size="39" font-weight="600" fill="#075B8B" text-anchor="middle">Präsentation</text>
+  <text x="480" y="304" font-size="21" fill="#5A6668" text-anchor="middle">Keynote- / PowerPoint-Vorlage</text>
+  <text x="480" y="512" font-size="17" fill="#93A9B8" text-anchor="middle" letter-spacing="1.5">PLATZHALTER — ASSET FEHLT NOCH</text>
+</svg>

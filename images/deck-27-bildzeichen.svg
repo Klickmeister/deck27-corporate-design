@@ -1,0 +1,7 @@
+<svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg" font-family="'Source Sans Pro', Helvetica, Arial, sans-serif">
+  <rect width="600" height="600" fill="#F1F5F8"/>
+  <rect x="8" y="8" width="584" height="584" rx="6" fill="none" stroke="#075B8B" stroke-width="2" stroke-dasharray="10 8"/>
+  <text x="300" y="290" font-size="43" font-weight="600" fill="#075B8B" text-anchor="middle">Bildzeichen</text>
+  <text x="300" y="338" font-size="23" fill="#5A6668" text-anchor="middle">Signet / Icon-Variante</text>
+  <text x="300" y="572" font-size="19" fill="#93A9B8" text-anchor="middle" letter-spacing="1.5">PLATZHALTER — ASSET FEHLT NOCH</text>
+</svg>

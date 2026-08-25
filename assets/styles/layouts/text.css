@@ -1,0 +1,67 @@
+/* Text
+############################################################################ */
+
+.text{
+  display: block;
+  height: 100vh;
+  border: solid 5px var(--color-primary);
+  color: var(--color-fg);
+  overflow-y: scroll;
+
+  .wrap{
+    max-width: clamp(30em, 100%, 60em);
+
+    & > *{
+      margin-left: 33%
+    }
+  }
+
+  h1, h2, h3, h4, h5{
+    color: var(--color-headline);
+    font-weight: var(--fw-medium);
+    line-height: var(--lh-tight);
+  }
+
+  h2{
+    color: var(--color-darker);
+    font-size: var(--size-l);
+    text-wrap: balance;
+  }
+
+  h3{
+    margin-bottom: var(--size-s);
+    font-size: var(--size-m);
+  }
+
+  p{
+    line-height: var(--lh-normal);
+  }
+
+  p:not(.teasertext){
+    margin-left: 0;
+  }
+
+  .title{
+    margin-bottom: var(--size-s);
+  }
+
+  .subtitle{
+    color: var(--color-darkest);
+  }
+
+  .teasertext{
+    margin-top: var(--size-l);
+    margin-bottom: var(--size-l);
+    color: var(--color-darkest);
+  }
+
+  .main-column{
+    transform: scale(0.7);
+  }
+
+  .marginalie{
+    position: sticky;
+    top: 50%;
+    font-size: smaller
+  }
+}

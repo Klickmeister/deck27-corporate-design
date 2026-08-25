@@ -1,0 +1,31 @@
+.is-hidden{
+  display: none !important;
+}
+
+.is-inline > *{
+  display: inline-block;
+}
+
+.is-dark{
+  background-color: var(--color-darkest);
+
+  --color-fg: var(--color-lighten);
+  --color-bg: var(--color-darkest);
+}
+
+.is-brand{
+  background-color: var(--color-primary);
+
+  --color-fg: var(--color-lightest);
+  --color-bg: var(--color-primary);
+}
+
+
+.has-grid{
+  @media screen and (width >= 768px){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+}

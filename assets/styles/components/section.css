@@ -1,0 +1,71 @@
+/* Section
+############################################################################ */
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--size-l);
+
+  /* overflow: hidden; */
+
+  padding-bottom: var(--size-xxl);
+
+  @media screen and (width >= 768px){
+    height: 100vh;
+    padding-bottom: var(--size-l);
+  }
+
+  /* background: linear-gradient(180deg, var(--color-darkest), var(--color-dark)); */
+
+  --border-color: var(--color-darkest);
+
+  &.snap-in{
+    scroll-snap-align: start;
+  }
+
+  &.d27-blau, &.d27-blau-dunkel, &.d27-indigo, &.d27-petrol, &.d27-gruen, &.d27-oliv, &.d27-schwarz, &.d27-grau{
+    h1, h2, h3, p{
+      color: var(--color-lightest);
+
+      --border-color: var(--color-lightest);
+    }
+  }
+
+  &.d27-blau {
+    background-color: var(--color-section-blau);
+  }
+
+  &.d27-blau-dunkel {
+    background-color: var(--color-section-blau-dunkel);
+  }
+
+  &.d27-indigo {
+    background-color: var(--color-section-indigo);
+  }
+
+  &.d27-petrol {
+    background-color: var(--color-section-petrol);
+  }
+
+  &.d27-gruen {
+    background-color: var(--color-section-gruen);
+  }
+
+  &.d27-oliv {
+    background-color: var(--color-section-oliv);
+  }
+
+  &.d27-schwarz {
+    background-color: var(--color-section-schwarz);
+  }
+
+  &.d27-grau {
+    background-color: var(--color-section-grau);
+  }
+
+  &.d27-hellgrau {
+    background-color: var(--color-section-hellgrau);
+  }
+}

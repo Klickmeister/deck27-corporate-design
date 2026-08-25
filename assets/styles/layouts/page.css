@@ -1,0 +1,128 @@
+/* Page
+############################################################################ */
+
+.page{
+  max-width: var(--size-max-content-width);
+  padding: 0;
+  padding-bottom: var(--size-xxl);
+  margin: 0 auto;
+  
+  header{
+    margin-bottom: var(--size-l);
+  }
+
+  h2{
+    padding-top: 0;
+    padding-bottom: var(--size-m);
+    line-height: var(--lh-tight);
+  }
+
+  p{
+    line-height: var(--lh-normal);
+  }
+
+  .text-wrap{
+    z-index: var(--level-fg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--size-xl) var(--size-l) var(--size-xxl);
+    border-top: solid var(--border-width) transparent;
+    background-color: var(--color-darken-strong);
+  }
+
+  img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @media screen and (width >= 768px){
+    *{
+      /* filter: blur(50px); */
+      transition: all var(--tr-normal) var(--tr-fast) ease-in-out;
+    }
+  
+    &  > *:not(figure){
+      transform: scale(0.2) rotate(90deg);
+    }
+
+    figure{
+      z-index: var(--level-bg);
+      margin-left: -100%; 
+  
+      img{
+        filter: grayscale(100%);
+        opacity: 0;
+      }
+    }
+  
+    .text-wrap{
+      opacity: 0.1
+    }
+  }
+
+
+
+  &.is-in-view{
+    & > *:not(figure){
+      transform: scale(1);
+    }
+
+    img{
+      filter: grayscale(0%);
+      opacity: 1;
+    }
+  
+    figure{
+      margin: 0;
+    }
+  
+    .text-wrap{
+      border-color: var(--color-d27-blue-mid);
+      opacity: 1;
+      transition-delay: 0.2s;
+    }
+  }
+
+  &.is-layout-1{
+    figure{
+      grid-column:1 / 3;
+      grid-row: 1 / 3;
+    }
+
+    .text-wrap{
+      grid-column: 2 / 4; 
+      grid-row: 2 / 4
+    }
+  }
+
+  &.is-layout-2{
+    figure{
+      grid-column:3 / 4;
+      grid-row: 1 / 4;
+    }
+
+    .text-wrap{
+      border: none;
+      grid-column:1 / 3; 
+      grid-row: 2 / 4;
+    }
+  }
+
+  &.is-layout-3{
+    figure{
+      grid-column:2 / 4;
+      grid-row: 1 / 4;
+    }
+
+    .text-wrap{
+      border-color: var(--color-primary);
+
+      --text-gradient: var(--text-gradient-reversed);
+
+      grid-column:1 / 3; 
+      grid-row: 2 / 4
+    }
+  }
+  
+}

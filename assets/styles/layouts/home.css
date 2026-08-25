@@ -1,0 +1,48 @@
+/* Home
+############################################################################ */
+
+.home > *:not(.fs-video){
+  max-width: var(--max-content-width);
+  opacity: 0;
+  transform: scale(0.1);
+  transition: all var(--tr-normal) ease-in-out;
+}
+
+.home.is-in-view > *{
+  filter: blur(0);
+  opacity: 1;
+  transform: scale(1) rotate(0deg);
+}
+
+.home{
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+  
+
+  header{
+    z-index: var(--level-fg);
+  }
+
+  h1{
+    margin-bottom: 0;
+    margin-left: -0.05em;
+    color: var(--color-headline);
+    font-size: var(--size-l);
+    line-height: 110%;
+  }
+
+  h2{
+    padding-top: 0;
+    color: var(--color-darkest);
+    font-size: var(--size-m);
+    font-weight: var(--fw-medium);
+  }
+
+  p{
+    max-width: var(--max-text-width) !important;
+  }
+
+  &.has-padding-xxl {
+    padding: var(--size-xxl);
+  }
+}
