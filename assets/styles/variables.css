@@ -4,22 +4,17 @@
 
   /* Colors – deck 27
   ---------------------------------------------------------------------------
-     Primaerfarbe ist #075B8B = hsl(202 90% 28.7%). Die Aufhellungen laufen
-     auf derselben Hue-Zeile, die Sekundaertoene liegen bei gleicher
-     Saettigung/Helligkeit auf anderen Hues derselben Rampe. */
+     Maßgeblich ist die Farbtafel in assets/corporate-design/10-colors,
+     die Druckwerte stehen in 11-colors-pantone. */
 
-  /* Primaer – Hue 202 */
-  --color-d27-blue: #075B8B;
-  --color-d27-blue-dark: #053957;
-  --color-d27-blue-mid: #1375AD;
-  --color-d27-blue-light: #4BA1D2;
-  --color-d27-blue-pale: #79B2D2;
-
-  /* Sekundaer – gleiche Stufe, andere Hues */
-  --color-d27-indigo: #072F8B;
-  --color-d27-petrol: #07878B;
-  --color-d27-green: #078B63;
-  --color-d27-olive: #5B8B07;
+  /* Marke */
+  --color-d27-petrol: #006164;
+  --color-d27-petrol-light: color-mix(in srgb, #006164 75%, #FFF);
+  --color-d27-sand: #D8CFB9;
+  --color-d27-red: #ED1129;
+  --color-d27-black: #000;
+  --color-d27-grey: #9E9B94;
+  --color-d27-grey-light: #F5F5F5;
 
   /* Neutral */
   --color-light: hsl(0deg 0% 80%);
@@ -34,23 +29,20 @@
   --color-lighten-strong: hsl(0deg 0% 100%/ 80%);
 
   /* Semantisch */
-  --color-primary: var(--color-d27-blue);
-  --color-secondary: var(--color-d27-petrol);
-  --color-accent: var(--color-d27-blue-mid);
-  --color-headline: var(--color-d27-blue);
+  --color-primary: var(--color-d27-petrol);
+  --color-secondary: var(--color-d27-sand);
+  --color-accent: var(--color-d27-red);
+  --color-headline: var(--color-d27-petrol);
   --color-bg: var(--color-lightest);
   --color-fg: var(--color-darker);
 
   /* Sektions-Hintergruende (siehe components/section.css) */
-  --color-section-blau: var(--color-d27-blue);
-  --color-section-blau-dunkel: var(--color-d27-blue-dark);
-  --color-section-indigo: var(--color-d27-indigo);
   --color-section-petrol: var(--color-d27-petrol);
-  --color-section-gruen: var(--color-d27-green);
-  --color-section-oliv: var(--color-d27-olive);
-  --color-section-schwarz: var(--color-darkest);
-  --color-section-grau: var(--color-darker);
-  --color-section-hellgrau: var(--color-lighter);
+  --color-section-sand: var(--color-d27-sand);
+  --color-section-rot: var(--color-d27-red);
+  --color-section-schwarz: var(--color-d27-black);
+  --color-section-grau: var(--color-d27-grey);
+  --color-section-hellgrau: var(--color-d27-grey-light);
 
 
   /* Fonts */
@@ -94,18 +86,18 @@
 
   /* Buttons */
   --button-border-width: var(--border-width);
-  --button-border-color: var(--color-d27-blue);
-  --button-hover-border-color: var(--color-d27-blue-light);
+  --button-border-color: var(--color-d27-petrol);
+  --button-hover-border-color: var(--color-d27-petrol-light);
   --button-text-color: var(--color-lightest);
-  --button-bg-color: var(--color-d27-blue);
-  --button-bg-hover-color: var(--color-d27-blue-mid);
+  --button-bg-color: var(--color-d27-petrol);
+  --button-bg-hover-color: var(--color-d27-petrol-light);
 
   /* Misc */
   --border-width: 2px;
   --level-bg: 0;
   --level-fg: 10;
   --radius-m: 3px;
-  --text-gradient: linear-gradient(90deg, var(--color-d27-blue), var(--color-d27-blue-mid));
-  --text-gradient-reversed: linear-gradient(270deg, var(--color-d27-blue), var(--color-d27-blue-mid));
+  --text-gradient: linear-gradient(90deg, var(--color-d27-petrol), var(--color-d27-petrol-light));
+  --text-gradient-reversed: linear-gradient(270deg, var(--color-d27-petrol), var(--color-d27-petrol-light));
   --box-shadow: 0 0 1em var(--color-darken);
 }

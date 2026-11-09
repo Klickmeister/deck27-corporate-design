@@ -78,7 +78,7 @@
     }
   
     .text-wrap{
-      border-color: var(--color-d27-blue-mid);
+      border-color: var(--color-accent);
       opacity: 1;
       transition-delay: 0.2s;
     }

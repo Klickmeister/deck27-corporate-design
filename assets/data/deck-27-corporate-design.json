@@ -3,10 +3,20 @@
     {
       "id": "title",
       "title": "deck 27",
-      "subtitle": "Corporate Design // v1.0.0 // 2026",
+      "subtitle": "Corporate Design // v2.0.0 // 2026",
       "teaser": "Logo, Farben und Schrift zum Ansehen und Herunterladen.",
       "layout": "home",
-      "cssClasses": "is-light has-padding-xxl"
+      "cssClasses": "is-light has-padding-xxl",
+      "links": [
+        {
+          "url": "./assets/corporate-design/deck-27-corporate-design-komplett.zip",
+          "text": "Gesamtpaket herunterladen"
+        },
+        {
+          "url": "./assets/corporate-design/deck-27-logos-alle.zip",
+          "text": "Alle Logos herunterladen"
+        }
+      ]
     },
     {
       "id": "logo-hell",
@@ -14,7 +24,7 @@
       "image": "./assets/corporate-design/01-logo/deck-27-logo.svg",
       "layout": "image",
       "text": "deck 27 // Logo",
-      "text2": "Logo mit Claim «systemische Jugendhilfe»",
+      "text2": "Fläche Petrol, Schrift Sand",
       "cssClasses": "is-light has-padding-xxl",
       "download": "./assets/corporate-design/01-deck-27-logo.zip"
     },
@@ -24,49 +34,59 @@
       "image": "./assets/corporate-design/02-logo-invers/deck-27-logo-invers.svg",
       "layout": "image",
       "text": "deck 27 // Logo invers",
-      "text2": "Logo mit Claim «systemische Jugendhilfe»",
+      "text2": "Fläche Sand, Schrift Petrol",
       "cssClasses": "is-dark has-padding-xxl",
       "download": "./assets/corporate-design/02-deck-27-logo-invers.zip"
     },
     {
       "id": "logo-hell",
       "title": "deck 27",
-      "image": "./assets/corporate-design/03-logo-simple/deck-27-logo-simple.svg",
+      "image": "./assets/corporate-design/03-logo-tag/deck-27-logo-tag.svg",
       "layout": "image",
-      "text": "deck 27 // Logo simple",
-      "text2": "Logo ohne Claim",
-      "cssClasses": "is-dark has-padding-xxl",
-      "download": "./assets/corporate-design/03-deck-27-logo-simple.zip"
+      "text": "deck 27 // Logo mit Claim",
+      "text2": "Logo mit Claim «Systemische Jugendhilfe»",
+      "cssClasses": "is-light has-padding-xxl",
+      "download": "./assets/corporate-design/03-deck-27-logo-tag.zip"
     },
     {
       "id": "logo-dunkel",
       "title": "deck 27",
-      "image": "./assets/corporate-design/04-logo-simple-invers/deck-27-logo-simple-invers.svg",
+      "image": "./assets/corporate-design/04-logo-tag-rahmen/deck-27-logo-tag-rahmen.svg",
       "layout": "image",
-      "text": "deck 27 // Logo simple invers",
-      "text2": "Logo ohne Claim",
+      "text": "deck 27 // Logo mit Claim und Rahmen",
+      "text2": "Rahmen in Sand – für unruhige oder dunkle Hintergründe",
       "cssClasses": "is-dark has-padding-xxl",
-      "download": "./assets/corporate-design/04-deck-27-logo-simple-invers.zip"
+      "download": "./assets/corporate-design/04-deck-27-logo-tag-rahmen.zip"
+    },
+    {
+      "id": "logo-dunkel",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/05-logo-tag-hell/deck-27-logo-tag-hell.svg",
+      "layout": "image",
+      "text": "deck 27 // Logo mit Claim hell",
+      "text2": "Fläche Hellgrau, Schrift Petrol",
+      "cssClasses": "is-dark has-padding-xxl",
+      "download": "./assets/corporate-design/05-deck-27-logo-tag-hell.zip"
     },
     {
       "id": "logo-hell",
       "title": "deck 27",
-      "image": "./assets/corporate-design/05-wortmarke/deck-27-wortmarke.svg",
+      "image": "./assets/corporate-design/06-wortmarke/deck-27-wortmarke.svg",
       "layout": "image",
       "text": "deck 27 // Wortmarke",
-      "text2": "",
+      "text2": "freigestellt in Petrol, für helle Gründe",
       "cssClasses": "is-light has-padding-xxl",
-      "download": "./assets/corporate-design/05-deck-27-logo-wortmarke.zip"
+      "download": "./assets/corporate-design/06-deck-27-wortmarke.zip"
     },
     {
       "id": "logo-dunkel",
       "title": "deck 27",
-      "image": "./assets/corporate-design/06-wortmarke-invers/deck-27-wortmarke-invers.svg",
+      "image": "./assets/corporate-design/07-wortmarke-invers/deck-27-wortmarke-invers.svg",
       "layout": "image",
       "text": "deck 27 // Wortmarke invers",
-      "text2": "",
+      "text2": "freigestellt in Sand, für dunkle Gründe",
       "cssClasses": "is-dark has-padding-xxl",
-      "download": "./assets/corporate-design/06-deck-27-logo-wortmarke-invers.zip"
+      "download": "./assets/corporate-design/07-deck-27-wortmarke-invers.zip"
     },
     {
       "id": "farben",
@@ -74,9 +94,19 @@
       "image": "./assets/corporate-design/10-colors/deck-27-colors.svg",
       "layout": "image",
       "text": "Farben",
-      "text2": "Primärfarbe: #075B8B",
+      "text2": "Primärfarbe Petrol #006164 · Sekundärfarbe Sand #D8CFB9 · Akzent Rot #ED1129",
       "cssClasses": "is-light has-padding-xl",
-      "download": "./assets/corporate-design/10-colors.zip"
+      "download": "./assets/corporate-design/10-deck-27-colors.zip"
+    },
+    {
+      "id": "farben-pantone",
+      "title": "deck 27",
+      "image": "./assets/corporate-design/11-colors-pantone/deck-27-colors-pantone.svg",
+      "layout": "image",
+      "text": "Farben // Pantone",
+      "text2": "Sonderfarben für den Druck – PANTONE 323 C, 9163 C, 1788 C, Black 6 C, 402 C",
+      "cssClasses": "is-light has-padding-xl",
+      "download": "./assets/corporate-design/11-deck-27-colors-pantone.zip"
     },
     {
       "id": "schrift",
@@ -87,7 +117,7 @@
       "marginalie": "Source Sans Pro",
       "layout": "text",
       "cssClasses": "has-padding-xxl grid grid-marginalie",
-      "download": "./assets/corporate-design/20-source-sans-pro.zip"
+      "download": "./assets/corporate-design/20-deck-27-source-sans-pro.zip"
     },
     {
       "id": "briefpapier",

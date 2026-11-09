@@ -7,10 +7,10 @@
 }
 
 .is-dark{
-  background-color: var(--color-darkest);
+  background-color: var(--color-d27-black);
 
   --color-fg: var(--color-lighten);
-  --color-bg: var(--color-darkest);
+  --color-bg: var(--color-d27-black);
 }
 
 .is-brand{

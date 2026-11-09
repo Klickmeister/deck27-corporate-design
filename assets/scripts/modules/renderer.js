@@ -1,14 +1,12 @@
 let lastColorClass = false;
 
 const colorClasses = {
-  "d27-blau": ".d27-blau",
-  "d27-blau-dunkel": ".d27-blau-dunkel",
-  "d27-indigo": ".d27-indigo",
   "d27-petrol": ".d27-petrol",
-  "d27-gruen": ".d27-gruen",
-  "d27-oliv": ".d27-oliv",
-  "d27-grau": ".d27-grau",
+  "d27-sand": ".d27-sand",
+  "d27-rot": ".d27-rot",
   "d27-schwarz": ".d27-schwarz",
+  "d27-grau": ".d27-grau",
+  "d27-hellgrau": ".d27-hellgrau",
 };
 
 
