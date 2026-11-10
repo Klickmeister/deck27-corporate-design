@@ -26,6 +26,7 @@ verwenden.
 | `assets/scripts/modules/renderer.js` | Layout-Templates |
 | `assets/styles/variables.css` | Design Tokens: Farben, Schrift, Größen, Abstände |
 | `assets/fonts/` | Fonts für die Doku-Seite, werden nach `compiled-assets/fonts/` kopiert |
+| `assets/images/anwendungen/` | Ansichten der Drucksachen (Visitenkarten, Schilder), gerendert aus `../drucksachen` |
 | `images/` | Platzhaltergrafiken für noch offene Anwendungen |
 | `compiled-assets/` | Build-Output – nicht von Hand bearbeiten |
 
@@ -120,8 +121,8 @@ Regular für Fließtext, SemiBold für Überschriften, Bold für Auszeichnungen.
 
 Logo, Farben und Schrift sind gesetzt und vollständig ausgeliefert. Offen sind:
 
-- [ ] **Briefpapier, Präsentationsvorlage, Visitenkarte** – noch nicht
-      entschieden, ob sie gebraucht werden. In der Doku stehen dafür
+- [ ] **Briefpapier, Präsentationsvorlage** – noch nicht entschieden, ob
+      sie gebraucht werden. In der Doku stehen dafür
       Platzhalter aus `images/`.
 - [ ] **Doppelte Kapitel-IDs** – `logo-hell` und `logo-dunkel` kommen in der
       JSON mehrfach vor. Da `id` zum HTML-Anker wird, greifen Sprungmarken

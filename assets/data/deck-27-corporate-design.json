@@ -120,6 +120,42 @@
       "download": "./assets/corporate-design/20-deck-27-source-sans-pro.zip"
     },
     {
+      "id": "visitenkarte-jb",
+      "title": "Visitenkarte Julian Breiter",
+      "image": "./assets/images/anwendungen/visitenkarte-jb.png",
+      "layout": "image",
+      "text": "Visitenkarte",
+      "text2": "85 × 55 mm, hochkant – Vorder- und Rückseite",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
+      "id": "visitenkarte-mr",
+      "title": "Visitenkarte Markus Riesenkönig",
+      "image": "./assets/images/anwendungen/visitenkarte-mr.png",
+      "layout": "image",
+      "text": "Visitenkarte",
+      "text2": "85 × 55 mm, hochkant – Vorder- und Rückseite",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
+      "id": "firmenschild",
+      "title": "Firmenschild deck 27",
+      "image": "./assets/images/anwendungen/firmenschild.png",
+      "layout": "image",
+      "text": "Firmenschild",
+      "text2": "33 × 33 cm, Logo mit Claim und Rahmen in Sand",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
+      "id": "hausflurschild",
+      "title": "Hausflurschild deck 27",
+      "image": "./assets/images/anwendungen/hausflurschild.png",
+      "layout": "image",
+      "text": "Hausflurschild",
+      "text2": "30 × 22,5 cm, Wegweiser im Treppenhaus",
+      "cssClasses": "is-light has-padding-xxl"
+    },
+    {
       "id": "briefpapier",
       "title": "deck 27",
       "image": "./images/deck-27-briefpapier.svg",
@@ -136,15 +172,6 @@
       "text": "Präsentationsvorlage",
       "text2": "sollen wir da was machen?",
       "cssClasses": "is-light has-padding-xxl"
-    },
-    {
-      "id": "business-card",
-      "title": "deck 27",
-      "image": "./images/deck-27-visitenkarte.svg",
-      "layout": "image",
-      "text": "Visitenkarte",
-      "text2": "sollen wir da was machen?",
-      "cssClasses": "is-light has-padding-xxl has-shadow"
     }
   ]
 }
