@@ -122,7 +122,7 @@
     {
       "id": "visitenkarte-jb",
       "title": "Visitenkarte Julian Breiter",
-      "image": "./assets/images/anwendungen/visitenkarte-jb.png",
+      "image": "./assets/images/anwendungen/visitenkarte-jb.webp",
       "layout": "image",
       "text": "Visitenkarte",
       "text2": "85 × 55 mm, hochkant – Vorder- und Rückseite",
@@ -131,7 +131,7 @@
     {
       "id": "visitenkarte-mr",
       "title": "Visitenkarte Markus Riesenkönig",
-      "image": "./assets/images/anwendungen/visitenkarte-mr.png",
+      "image": "./assets/images/anwendungen/visitenkarte-mr.webp",
       "layout": "image",
       "text": "Visitenkarte",
       "text2": "85 × 55 mm, hochkant – Vorder- und Rückseite",
